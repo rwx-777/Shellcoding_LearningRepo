@@ -12,3 +12,7 @@ We need to remove all bad chars from our shellcode in order for it to work
 we shall use "lea <destination>, [rel <source>]"
 where the rel instruction will compute the address of the source relative to the RIP register.
   
+
+# Jmp-call technique
+We first jmp to the string we want to move to a register, after that we call the actual code using "call" this will push the strings address to the stack.
+Then we pop the address (not the String itself) into that register. voila!
