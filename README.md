@@ -8,4 +8,7 @@ We need to remove all bad chars from our shellcode in order for it to work
 - FF: This is the form feed(\f)
 - 0D: This is the carriage return(\r)
 
-
+# Relative address technique
+we shall use "lea <destination>, [rel <source>]"
+where the rel instruction will compute the address of the source relative to the RIP register.
+  
