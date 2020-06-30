@@ -16,3 +16,6 @@ where the rel instruction will compute the address of the source relative to the
 # Jmp-call technique
 We first jmp to the string we want to move to a register, after that we call the actual code using "call" this will push the strings address to the stack.
 Then we pop the address (not the String itself) into that register. voila!
+
+
+# Stack technique
