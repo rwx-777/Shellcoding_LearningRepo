@@ -19,8 +19,7 @@ Then we pop the address (not the String itself) into that register. voila!
 
 
 # Stack technique
-not rlly sure how useful tbh
-Reverse String & encode it into hex
+We Reverse String & encode it into hex then copy the hex bytes into our code so we do not have to store the string in any register.
 
 $python
 >> string = 'hello World'
