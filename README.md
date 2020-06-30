@@ -21,8 +21,10 @@ Then we pop the address (not the String itself) into that register. voila!
 # Stack technique
 not rlly sure how useful tbh
 Reverse String & encode it into hex
+
 $python
 >> string = 'hello World'
+
 >> string[::-1].encode('hex')
 
 
