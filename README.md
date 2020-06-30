@@ -19,3 +19,5 @@ Then we pop the address (not the String itself) into that register. voila!
 
 
 # Stack technique
+not rlly sure how useful tbh
+
