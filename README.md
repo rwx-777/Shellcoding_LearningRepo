@@ -26,5 +26,17 @@ $python
 
 >> string[::-1].encode('hex')
 
+We need to convert port to htons using Python:
+>> import socket
+
+>> hex(socket.htons(1234))
+
+And we need to pack the IP in a 32 bit format:
+>> import socket
+
+>> socket.inet_atons("192.168.0.1")[::-1]
+
+
+
 
 
