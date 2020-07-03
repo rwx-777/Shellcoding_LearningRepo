@@ -43,7 +43,7 @@ We need to convert port to htons using Python:
 And we need to pack the IP in a 32 bit format:
 >> import socket
 
->> socket.inet_aton("192.168.0.1")[::-1]
+>> socket.inet_aton("192.168.178.1")[::-1]
 
 
 
