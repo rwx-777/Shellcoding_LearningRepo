@@ -1,6 +1,13 @@
 # Shellcoding_LearningRepo
 You should look through my Assembly LearningRepo first before learning Shellcoding.
 
+
+# How to compile & create shellcode
+$ ./CompileNasm.sh execve-sh.nasm
+$ ./makeShellcode.sh compiled
+Viola now you should get the returned shellcode printed to stdout of your assembler programm.
+
+
 # Bad character
 We need to remove all bad chars from our shellcode in order for it to work
 - 00: This is the zero value or null terminator(\0)
