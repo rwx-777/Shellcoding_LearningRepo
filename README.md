@@ -4,7 +4,9 @@ You should look through my Assembly LearningRepo first before learning Shellcodi
 
 # How to compile & create shellcode
 $ ./CompileNasm.sh execve-sh.nasm
+
 $ ./makeShellcode.sh compiled
+
 Viola now you should get the returned shellcode printed to stdout of your assembler programm.
 
 
